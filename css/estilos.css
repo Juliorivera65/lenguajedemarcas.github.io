@@ -1,0 +1,123 @@
+table {
+	width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: none;
+    padding: 15px; /* Espaciado dentro de las celdas */
+	vertical-align:top;
+}
+img {
+	box-shadow:10px 10px 15px #00000080;
+
+}
+
+#cabecera {
+	text-align: center;
+	font-family: Candara;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 100px;
+	color:#fff;
+	text-shadow: 2px 2px 2px black;
+}
+
+#subcabecera {
+	font-size: 50px;
+	color: fff;
+	text-shadow: 2px 2px 2px black;
+	padding-bottom: 30px;
+}
+
+.tablaCabecera {
+	width: 100%;
+	height: auto;
+	border: none;
+	background-color: #fff;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	/*background-position-y: center;*/
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+.contenido {
+	margin-top: 350px;
+	font-family:Arial;
+	font-size:18px;
+	text-align:justify;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: dde8e0;
+	border-radius:10px;
+}
+
+.piePagina {
+	height:100px;
+	text-align: center;
+	color: #ffffff;
+	font-weight: bold;
+	vertical-align: center;
+	margin-top: 25px;
+	background-color: #5b5958;
+}
+
+.cursiva {
+	text-align: right;
+	font-size:14px;
+}
+
+.historia{
+	width: 1024px;
+	
+}
+
+.formulario {
+	font-weight:bold;
+	font-family:Verdana;
+	font-size:36px;
+	color: #2d3d30;
+}
+/*aquí voy a diseñar un menú de navegación*/
+
+header {
+	background: #4a4a4a;
+	width: 100%;
+	position: fixed;
+	top: 240px;
+	left: 0px;
+	z-index: 100;
+}
+
+nav {
+	float: center;
+	text-align:center;
+}
+
+nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+
+nav ul li {
+	float: left;
+	font-family: Arial;
+	font-size: 18px;
+	border-radius: 10px;
+}
+
+nav ul li a {
+  display: block; 
+  padding: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+	background: #9ba99e;
+}

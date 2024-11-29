@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 //es"  “http://www.w3.org/TR/REC-html40/strict.dtd">
+<html lang="es">
+
+<head>
+<title>La Codosera-CONTACTO</title>
+<link rel="stylesheet" type="text/css" href="css/estilos.css" >
+<meta name="palabraClave" content="frontera, Portugal, rayano, naturaleza, Extremadura"></meta>
+</head>
+<body>
+	<table class="tablaCabecera" background="img/cabecera.jpg">
+		<tr>
+			<td>
+				<pre id="cabecera">LA CODOSERA.</pre>
+		</tr>
+			</td>
+		<tr>
+			<td>
+				<pre id="subcabecera"><u>Donde las cosas son de otra manera</u></pre>
+			</td>
+		</tr>
+	</table>
+	
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="historia.html">Historia</a></li>
+				<li><a href="tradiciones.html">Tradiciones</a></li>
+				<li><a href="datosEstadisticos.html">Datos estad&iacute;sticos</a></li>
+				<li><a href="informacionTusristica.html">Informaci&oacute;n Tur&iacute;tica</a></li>
+				<li><a href="contenidoMultimedia.html">Contenido multimedia</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+
+	<table class="contenido">
+		<tr>
+			<td>
+				<form name="contacto" action="/rutadelservidor"	 method="post">
+					<fieldset>
+						<legend class="formulario">Formulario de contacto</legend>
+									<br><br>
+							<label for="nombre">Nombre</label><br>
+								<input type="text" name="nombre" value="Ejemplo: Juan" size="25px" maxlength="25">
+							<br><br>
+							<label for="apellidos">Apellidos</label><br>
+								<input type="text" name="apellidos" value="Ejemplo: Salas" size="50px" maxlength="50">
+									<br><br>
+							<label for="email">Correo electr&oacute;nico</label><br>
+								<input type="text" name="email" value="Ejemplo: algo@algo.es" size="75px" maxlength="60">
+									<br><br>
+							<label for="telefono">N<sup>o</sup> de tel&eacute;fono</label><br>
+								<input type="text" name="nombre" value="Ejemplo: 617891234" size="15px" maxlength="13">
+							<br><br>
+							<label for="tipoConsulta">Sobre que es tu consulta</label><br><br>
+								<input type="checkbox" name="fiestas" value="Ferias y fiestas"> Ferias y fiestas<br><br>
+								<input type="checkbox" name="historia" value="Historia"> Historia<br><br>
+								<input type="checkbox" name="entorno" value="Entorno"> Entorno y naturaleza<br><br>
+							<label for="lugar">Sobre que zona geografica es la consulta </label><br><br>
+							<select name="seleccion" required value="Elige la zona" size="4" multiple>
+								<option value="Codosera">La Codosera</option>
+								<option value="Tojera">La Tojera</option>
+								<option value="Rabaza">La Rabaza</option>
+								<option value="Marco">El Marco</option>
+								<option value="Bacoco">Bacoco</option>
+								<option value="gevora">R&iacute;o G&eacute;vora</option>
+								<option value="Otros">Otros</option>
+							</select>
+									<br><br>
+							<label for="encuesta">Del 1 al 10 ¿Cu&aacute;nto te ha gustado la zona?</label><br><br>
+								<input type="number" name="satisfaccion" min="1" max="10" required><br><br>
+							<label for="recuerdo">Sube una foto de la zona</label><br><br>
+								<input type="file" placeholder="foto">
+									<button type="submit">Sube tu archivo</button><br><br><!--Un el boton de subida no funciona porque aun estoy aprendiendo java-->
+							<label for="areaTexto">Escribe tu consulta aquí</label><br>
+						<textarea name="consulta" rows="10" cols="100" required></textarea><br><br>
+								<input type="submit" name="Enviar" value="Enviar consulta"> <input type="reset" name="borrar" value="Borrar formulario">
+					</fieldset>
+		
+				</form>
+		
+			</td>
+		</tr>
+	</table>
+	
+	<<table class="piePagina">
+		<tr>
+			<td>
+			Web b&aacute;sica desarrollada por Julio Rivera
+			</td>
+			<td>
+			Alumno FP DAM a distancia. IES Augustobriga. Navalmoral de la Mata (C&aacute;ceres.)
+			</td>
+		</tr>
+	</table>
+</body>
+
+</html>
